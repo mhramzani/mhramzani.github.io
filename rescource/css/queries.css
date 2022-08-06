@@ -1,0 +1,24 @@
+@media screen and (max-width: 991px) {
+    .col-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .intro .col,
+    .miniCv .col {
+        flex: none;
+    }
+    .fastContact .col-8 {
+        width: 100%;
+    }
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 20px;
+    }
+}
