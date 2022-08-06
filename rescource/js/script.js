@@ -8,7 +8,7 @@ const shareBtn = get('.share');
 var shareData = {
         title: 'لینک صفحه ی معرفی محمدحسین رمضانی',
         text: 'همه چیز در مورد محمدحسین رمضانی',
-        url: 'www.google.com'
+        url: ''
     }
     //sticky nav & smooth scroll
 scrollWindow();
