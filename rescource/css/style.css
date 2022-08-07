@@ -518,6 +518,7 @@ new
     }
     
     .skill .row {
+        margin-top: 15px;
         padding: 0 5px;
     }
     
@@ -543,10 +544,6 @@ new
         background: linear-gradient(90deg, rgba(243, 153, 93, 1) 0%, rgba(249, 97, 109, 1) 100%);
         padding-left: 5px;
         transition: all 0.4s;
-    }
-    
-    .skill .row {
-        margin-top: 15px;
     }
     
     .icon {
