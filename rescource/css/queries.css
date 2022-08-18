@@ -2,6 +2,9 @@
     .col-4 {
         width: 100%;
     }
+    .mt-5 {
+        margin-top: 2.5rem !important;
+    }
 }
 
 @media screen and (max-width: 780px) {
@@ -15,9 +18,26 @@
     html {
         font-size: 20px;
     }
+    .mt-5 {
+        margin-top: 2rem !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .card img,
+    .card:hover img {
+        filter: brightness(100%);
+        transform: scale(1);
+    }
+    .card:hover .card-img-overlay {
+        display: none;
+    }
+    .card-img-overlay {
+        display: none;
+    }
+    .myDnone {
+        display: block;
+    }
     html {
         font-size: 20px;
     }

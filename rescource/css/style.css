@@ -713,6 +713,44 @@ Fast Contact
     .input:focus~.highlight {
         animation: inputHighlighter 0.3s ease;
     }
+    
+    .card {
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .card-title {
+        color: var(--clr-orange);
+        font-size: 1.5rem;
+    }
+    
+    .card img {
+        filter: brightness(100%);
+        transform: scale(1.2);
+        transition: all 0.2s;
+    }
+    
+    .card:hover img {
+        filter: brightness(40%);
+        transform: scale(1);
+        transition: all 0.2s;
+    }
+    
+    .card .card-img-overlay {
+        display: none;
+    }
+    
+    .card:hover .card-img-overlay {
+        display: block;
+    }
+    
+    .myDnone {
+        display: none;
+    }
+    
+    .myDnone .mybtn {
+        background-color: var(--wave-color);
+    }
     /* 
 =============
 animations
