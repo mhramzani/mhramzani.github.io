@@ -17,7 +17,7 @@
         --clr-pinky: hsl(358, 50%, 60%);
         --clr-metalicGreen: hsl(166, 20%, 44%);
         --clr-bcg: #1F2233;
-        --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        --light-shadow: 1px 1px 15px rgba(155, 155, 155, 0.575);
         --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         --blue-shadow: 0 3px 15px #30a9ddb2;
         --text-shadow: 0 2px 30px #9fb4ff81;
@@ -744,12 +744,24 @@ Fast Contact
         display: block;
     }
     
-    .myDnone {
+    .secCard {
         display: none;
     }
     
-    .myDnone .mybtn {
+    .secCard .card {
         background-color: var(--wave-color);
+        transition: all 0.2s;
+    }
+    
+    .secCard .card:hover {
+        box-shadow: var(--blue-shadow);
+        transition: all 0.2s;
+    }
+    
+    .secCard .card:hover img,
+    .secCard .card img {
+        filter: brightness(100%);
+        transform: scale(1);
     }
     /* 
 =============

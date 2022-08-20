@@ -24,19 +24,19 @@
 }
 
 @media screen and (max-width: 480px) {
+    .firCard {
+        display: none;
+    }
+    .secCard {
+        display: block;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
     .card img,
     .card:hover img {
         filter: brightness(100%);
         transform: scale(1);
-    }
-    .card:hover .card-img-overlay {
-        display: none;
-    }
-    .card-img-overlay {
-        display: none;
-    }
-    .myDnone {
-        display: block;
     }
     html {
         font-size: 20px;

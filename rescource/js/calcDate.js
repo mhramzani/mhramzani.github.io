@@ -24,7 +24,7 @@ function CalculateDate(date, textPlace) {
 function showFooter() {
     footer.innerHTML = `<div dir="ltr">
     Copyright ${new Date().getFullYear()} by MHR. All Rights Reserved.<br>
-    Porfolio is Powered by MHR.</div> `;
+    Portfolio is Powered by MHR.</div> `;
 }
 const calcDate = () => {
     CalculateDate("05/13/1999", age);
