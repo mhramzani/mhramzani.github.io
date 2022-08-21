@@ -25,6 +25,8 @@ const topWave = get('.top-wave');
 const bottomWave = get('.bottom-wave')
 const footerWave = get('.top-footer')
 const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
+const toggle = get('.switch');
+toggle.style.top = `${window.innerHeight -50}px`
 
 function switchTheme(e) {
     if (e.target.checked) {

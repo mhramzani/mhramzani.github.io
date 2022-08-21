@@ -23,6 +23,7 @@
         --text-shadow: 0 2px 30px #9fb4ff81;
         --text-color: white;
         --wave-color: #25273E;
+        --toggle-color: #2e325a;
         --gradient-from: rgba(243, 153, 93, 1);
         --gradient-to: rgba(249, 97, 109, 1);
         --active-mybtn: #bfbfbf;
@@ -814,7 +815,7 @@ switch
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: var(--wave-color);
+        background-color: var(--toggle-color);
         transition: .5s;
         border-radius: 30px;
     }
@@ -828,7 +829,7 @@ switch
         left: 10%;
         bottom: 15%;
         box-shadow: inset 8px -4px 0px 0px #fff000;
-        background: var(--wave-color);
+        background: var(--toggle-color);
         transition: .5s;
     }
     
